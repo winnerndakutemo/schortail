@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Les différents types de formules en chimie organique",
+    "description": "Comprendre les différets types de formules en chimie organique",
+    "type": "Vidéo",
+    "branch": "Chimie",
+    "classe": "2",
+    "link": "https://www.youtube.com/watch?v=zoizaNENUns&pp=ygUfbGVzIHR5cGVzIGRlIGZvcm11bGVzIGNoaW1pcXVlcw%3D%3D"
+  },
+
+  {
+    "title": "Les réactions d'oxydoréduction",
+    "description": "Comprenez L'étage d'oxydation des composés",
+    "type": "Article",
+    "branch": "Chimie",
+    "classe": "3",
+    "link": "https://fr.khanacademy.org/science/chemistry/chemical-reactions-stoichiome/types-of-chemical-reactions/a/oxidation-number"
+  },
+  {
+    "title": "Comprendre le tableau périodique",
+    "description": "Comprendre les tableaux périodiques",
+    "type": "Vidéo",
+    "branch": "Chimie",
+    "classe": "1",
+    "link": "https://www.youtube.com/watch?v=L6QmzMCl8JQ&pp=ygUkY29tcHJlbmRyZSBsZXMgdGFibGVhdXggcMOpcmlvZGlxdWVz"
+  },
+  {
+    "title": "L'élément carbone",
+    "description": "Tout ce qu'il y a sur les sdifférentes classes de carbone",
+    "type": "Article",
+    "branch": "Chimie",
+    "classe": "2",
+    "link": "https://www.maxicours.com/se/cours/l-element-carbone/"
+  }
+]

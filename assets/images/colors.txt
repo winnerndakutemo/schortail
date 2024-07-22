@@ -1,0 +1,3 @@
+#215DC2 : blue
+orange: #E5563B
+Font: Nue Machina

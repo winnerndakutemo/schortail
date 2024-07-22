@@ -1,0 +1,393 @@
+:root {
+  --primary: #215dc2;
+  --orange: #e5563b;
+}
+
+/*general */
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 20px 2rem;
+}
+
+.cta {
+  background: var(--orange);
+  padding: 0.5rem;
+  color: white;
+  border-radius: 2px;
+
+  transition: all 300ms;
+}
+
+.cta:hover {
+  background-color: var(--primary);
+}
+.cta:hover span {
+  padding: 5px;
+
+  transition: all 300ms;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Oswald", serif;
+}
+
+/*  Header */
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  position: fixed;
+  z-index: 100;
+  background: white;
+  width: 100%;
+  top: 0;
+}
+
+/* Navbar */
+.navbar-nav {
+  display: flex;
+  gap: 5rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-link {
+  color: black;
+  transition: all 300ms;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+.nav-link:hover {
+  color: var(--primary);
+}
+.nav-icon {
+  margin-right: 5px;
+}
+a {
+  text-decoration: none;
+}
+.active-link {
+  color: var(--primary);
+}
+
+/* Fist section*/
+.main-section {
+  margin-top: 5rem;
+}
+
+.main-section__container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.text-content p {
+  margin-top: 0;
+  line-height: 1.7;
+  font-size: 1.5rem;
+}
+
+.main-section .text-content {
+  width: 50%;
+}
+
+/* Second section(where you find courses)*/
+
+.lessons-section {
+  background: var(--primary);
+  color: white;
+  position: relative;
+
+  min-height: 500px;
+}
+.lessons-section__description {
+  font-size: 1.5rem;
+}
+
+/* courses-card */
+.card {
+  background: white;
+  color: black;
+  max-width: 300px;
+  height: 300px;
+
+  border-radius: 2px 2px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.6rem;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-title {
+  margin-top: 0;
+}
+
+.card-text {
+  padding: 0.6rem;
+}
+
+/*footer*/
+
+footer {
+  background: black;
+  color: white;
+}
+
+footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.social-media {
+  display: flex;
+  gap: 10px;
+}
+.social-media a {
+  color: white;
+  transition: all 300ms;
+}
+
+.social-media a:hover {
+  opacity: 0.6;
+}
+
+/* sesction 1, 2 media querry */
+@media screen and (max-width: 800px) {
+  .main-section .text-content {
+    min-width: 100%;
+    text-align: center;
+  }
+
+  .lessons-section {
+    position: relative;
+    top: 0;
+  }
+
+  .img-container {
+    display: none;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+}
+
+/* Elements reveal animation*/
+.hidden-text {
+  opacity: 0.5;
+  transform: translateX(50px);
+  transition: all 1s;
+  display: inline-block;
+}
+
+.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.hidden2 {
+  transform: translateY(-50px);
+  opacity: 0.5;
+  transition: all 1s;
+}
+.show-animate-2 {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* hamburger menu*/
+
+.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    width: 70%;
+    height: 100vh;
+    text-align: center;
+    z-index: 100;
+    background: white;
+
+    color: black;
+    opacity: 1;
+    transition: 0.3s;
+  }
+
+  .navbar-nav.active {
+    left: 0;
+  }
+  .navbar-nav * {
+    z-index: 100;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    font-size: 2rem;
+  }
+}
+
+/* Branch page */
+
+.core-section {
+  display: flex;
+  background: var(--orange);
+  justify-content: center;
+  color: white;
+}
+
+/* search section On branch pages*/
+
+.search-section {
+  margin-top: 0.3rem;
+}
+
+.search-input {
+  width: 100%;
+  height: 50px;
+  font-size: 1.5rem;
+  border: solid 1px var(--primary);
+  transition: all 0.3s;
+}
+
+.search-input:focus {
+  border: solid 2px;
+}
+
+.search-section .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.search-icon {
+  position: relative;
+  right: 2.5rem;
+  font-size: 1.5rem;
+}
+
+/* Course card on Branch section*/
+
+.course-card {
+  background: var(--primary);
+  color: white;
+  width: 300px;
+  border-radius: 25px;
+  padding: 1rem;
+  transition: all 0.7s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.course-card:hover {
+  box-shadow: 8px -8px 6px var(--primary);
+  cursor: pointer;
+}
+.course-card:active {
+  position: relative;
+  top: 5px;
+}
+
+.type-description-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.courses-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  justify-content: center;
+}
+
+.courses-link,
+.courses-link:visited {
+  color: black;
+  background: white;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+/* Articles courses card are styled differently than videos*/
+.orange-article {
+  background: var(--orange);
+}
+.orange-article:hover {
+  box-shadow: 8px -8px 6px var(--orange);
+}
+
+/* Reload Button: It's a button to reload contents(courses' card) */
+.reload {
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+/* Accordion */
+
+.accordion-container {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 0.5rem;
+}
+
+.accordion-hide {
+  display: none;
+}
+
+.accordion-content {
+  font-size: 1.2rem;
+}
+.accordion-title {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.3s;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.about-section h2 {
+  text-align: center;
+}
+
+.about-section .container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}

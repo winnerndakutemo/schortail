@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Résoudre une équation du segond degré",
+    "description": "Tout ce qu'il y a sur les équations du segond degré",
+    "type": "Vidéo",
+    "branch": "Mathématiques",
+    "classe": "2",
+    "link": "https://www.youtube.com/watch?v=Nj27Obr6IYs&pp=ygUbw6lxdWF0aW9uIGR1IHNlY29uZCBkZWdyw6kg"
+  },
+
+  {
+    "title": "Le cercle trigonométrique",
+    "description": "Comprenez à différencier et à utiliser ces deux mots aux utilisation synonimes",
+    "type": "Article",
+    "branch": "Mathématiques",
+    "classe": "Tout",
+    "link": "https://fr.wikipedia.org/wiki/Cercle_trigonom%C3%A9trique#:~:text=En%20math%C3%A9matiques%2C%20le%20cercle%20trigonom%C3%A9trique,%3A%20cosinus%2C%20sinus%2C%20tangente."
+  },
+  {
+    "title": "Comprendre les logarithmes",
+    "description": "Logarithmes",
+    "type": "Vidéo",
+    "branch": "Mathématiques",
+    "classe": "3",
+    "link": "https://www.youtube.com/watch?v=W5fh4Arugug&pp=ygUKbG9nYXJpdGhtZQ%3D%3D"
+  },
+  {
+    "title": "Les symboles mathématiques",
+    "description": "Tout ce qu'il y a sur les symboles grecques mathématiques",
+    "type": "Article",
+    "branch": "Mathématiques",
+    "classe": "2",
+    "link": "https://www.bossdesmaths.com/les-symboles-mathematiques/"
+  },
+
+  {
+    "title": "Le cercle trigonométrique",
+    "description": "Comprenez à différencier et à utiliser ces deux mots aux utilisation synonimes",
+    "type": "Article",
+    "branch": "Mathématiques",
+    "classe": "Tout",
+    "link": "https://www.alloprof.qc.ca/fr/eleves/bv/mathematiques/les-symboles-mathematiques-m1379"
+  },
+  {
+    "title": "Equation du 1er degré",
+    "description": "Comprenez à différencier et à utiliser ces deux mots aux utilisation synonimes",
+    "type": "Vidéo",
+    "branch": "Mathématiques",
+    "classe": "Tout",
+    "link": "#"
+  }
+]

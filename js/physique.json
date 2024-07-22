@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Les trois lois de Newtown",
+    "description": "Tout ce qu'il y a sur La première lois de Newtown",
+    "type": "Vidéo",
+    "branch": "Physique",
+    "classe": "4",
+    "link": "https://www.youtube.com/watch?v=dhVXGV_j6Sw&pp=ygUbbGEgcHJlbWllcmUgbG9pcyBkZSBuZXd0b24g"
+  },
+
+  {
+    "title": "Différence entre masse et poids",
+    "description": "Comprenez à différencier et à utiliser ces deux mots aux utilisation synonimes",
+    "type": "Article",
+    "branch": "Physiques",
+    "classe": "Tout",
+    "link": "https://www.letudiant.fr/college/methodologie-college/article/quelle-est-la-difference-entre-la-masse-et-le-poids.html#:~:text=La%20d%C3%A9finition%20du%20poids,le%20centre%20de%20la%20plan%C3%A8te."
+  },
+  {
+    "title": "Comprendre les logarithmes",
+    "description": "Logarithmes",
+    "type": "Vidéo",
+    "branch": "Physiques",
+    "classe": "3",
+    "link": "https://www.youtube.com/watch?v=W5fh4Arugug&pp=ygUKbG9nYXJpdGhtZQ%3D%3D"
+  },
+  {
+    "title": "La dilatation(Toutes)",
+    "description": "Tout ce qu'il y a à savoir sur la dilation des corps physiques",
+    "type": "Article",
+    "branch": "Physiques",
+    "classe": "2",
+    "link": "https://www.lyc-diderot.ac-aix-marseille.fr/eleves/cours/bts-tp-bat/la_dilatation.htm#:~:text=C'est%20l'augmentation%20de,on%20a%20une%20dilatation%20lin%C3%A9aire."
+  }
+]
